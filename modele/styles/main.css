@@ -3,5 +3,41 @@ body{
   padding:0;
   font-family: "Niramit", "Arial", sans-serif;
   font-size: 16px;
-  color: teal;
+  color: black;
+  background-color: white;
+}
+.element1{
+  width: 60px;
+  height: 60px;
+  background: #000;
+  margin: 100px;
+}
+.element2{
+  width: 60px;
+  height: 60px;
+  background: #000;
+  margin: 100px;
+}
+.element3{
+  width: 60px;
+  height: 60px;
+  background: #000;
+  margin: 100px;
+}
+.element4{
+  width: 60px;
+  height: 60px;
+  background: #000;
+  margin: 100px;
+}
+.element5{
+  width: 60px;
+  height: 60px;
+  background: #000;
+  margin: 100px;
+}
+
+.big{
+  width: 100px;
+  height: 100px;
 }

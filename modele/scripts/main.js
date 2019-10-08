@@ -1,34 +1,37 @@
-const element = document.querySelector('.element')
-const greenButton = document.querySelector('.greenButton')
-const circleButton = document.querySelector('.circleButton')
-const bigbutton = document.querySelector('.bigbutton')
-element.addEventListener(
+const element1 = document.querySelector('.element1')
+const element2 = document.querySelector('.element2')
+const element3 = document.querySelector('.element3')
+const element4 = document.querySelector('.element4')
+const element5 = document.querySelector('.element5')
+
+element2.addEventListener(
   'click',
   function() {
   console.log("Hello World")
   }
 )
-greenButton.addEventListener(
+element3.addEventListener(
   'click',
   function() {
-  element.style.background='green'
+  console.log("Hello World")
   }
 )
-circleButton.addEventListener(
+element4.addEventListener(
   'click',
   function() {
-  element.style.borderRadius='50%'
+  console.log("Hello World")
   }
 )
-bigbutton.addEventListener(
+element5.addEventListener(
   'click',
-  function(){
-    element.classList.toggle('big')
-    if (element.classList.contains('big')) {
-      bigbutton.innerHTML= "Reduire"
-    }
-    else {
-      bigbutton.innerHTML="Big"
-    }
+  function() {
+  console.log("Hello World")
+  }
+)
+
+element1.addEventListener(
+  'click',
+  function() {
+  console.log("Hello World")
   }
 )

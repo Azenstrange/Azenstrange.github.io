@@ -6,34 +6,58 @@ body{
   color: black;
   background-color: white;
 }
+.tableau{
+  display: flex;
+  flex-direction: column;
+justify-content: center;
+}
+.center{
+  display:flex;
+  flex-direction: row;
+    justify-content: space-around;
+}
+.top{
+  display:flex;
+  flex-direction: row;
+    justify-content: space-around;
+}
+.center{
+
+}
+.bot{
+  display:flex;
+  flex-direction: row;
+      justify-content: space-around;
+}
 .element1{
   width: 60px;
   height: 60px;
-  background: #000;
+  background: #777;
   margin: 100px;
 }
 .element2{
   width: 60px;
   height: 60px;
-  background: #000;
+  background: #777;
   margin: 100px;
 }
 .element3{
   width: 60px;
   height: 60px;
-  background: #000;
+  background: #777;
   margin: 100px;
+
 }
 .element4{
   width: 60px;
   height: 60px;
-  background: #000;
+  background: #777;
   margin: 100px;
 }
 .element5{
   width: 60px;
   height: 60px;
-  background: #000;
+  background: #777;
   margin: 100px;
 }
 

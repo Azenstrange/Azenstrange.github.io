@@ -6,28 +6,32 @@
     <meta name="description" content="Description de la page">
     <link href="https://fonts.googleapis.com/css?family=Niramit" rel="stylesheet">
     <link rel="stylesheet" href="styles/main.css">
+    <script type="text/javascript" src="https://cdn.rawgit.com/asvd/dragscroll/master/dragscroll.js"></script>
   </head>
   <body>
     <div class="tableau">
       <div class="top">
-        <div class ="element1"></div>
-        <div class ="element2"></div>
+        <div class="draggable">
+          <div class ="element2 blockincrease2"><img src="images/11Septembre.png" width=300px height=150px></div>
+        </div>
+        <div class="draggable"><div class ="element1 blockincrease"></div></div>
       </div>
-      <div class="center">
-      <div class ="element3"></div>
+      <<div class="center">
+      <div class="draggable"><div class ="element1 blockincrease"></div></div>
     </div>
       <div class="bot">
-        <div class ="element4"></div>
-        <div class ="element5"></div>
+        <div class="draggable"><div class ="element1 blockincrease"></div></div>
+        <div class="draggable"><div class ="element1 blockincrease"></div></div>
       </div>
     </div>
     <div class="lesimg">
-      <div class="imgelem"><div class="img1 invisible"></div></div>
+      <div class="imgelem"><div class="img1 invisible"><img src="images/11Septembre.png" width=100% height=100%></div></div>
       <div class="imgelem"><div class="img2 invisible"></div></div>
       <div class="imgelem"><div class="img3 invisible"></div></div>
       <div class="imgelem"><div class="img4 invisible"></div></div>
       <div class="imgelem"><div class="img5 invisible"></div></div>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/interactjs/dist/interact.min.js"></script>
   <script src="scripts/main.js"></script>
   </body>
 </html>

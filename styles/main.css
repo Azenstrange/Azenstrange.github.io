@@ -173,13 +173,12 @@ justify-content: center;
     transition: all 200ms ease-in;
     transform: scale(1.5);
 }
-.mentionlegal{
+.mentionlegal, .tips{
   color:grey;
   font-size: 12px;
 }
 .tips{
-  color:grey;
-  font-size: 12px;
+
   margin: 0px 0px 0px 40px;
 }
 

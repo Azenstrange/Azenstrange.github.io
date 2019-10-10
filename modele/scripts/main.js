@@ -7,8 +7,10 @@ const img4 = document.querySelector('.img4')
 const img5 = document.querySelector('.img5')
 const lesimg=document.querySelector('.lesimg')
 const button = document.querySelectorAll('.button')
-const elem = document.querySelectorAll('.element1')
-let imglist = [img1, img2, img3, img4, img5]
+const elem = document.querySelectorAll('.clickable')
+
+const imglist = document.querySelectorAll('.imgelem')
+
 for (let i = 0; i < elem.length; i++) {
   elem[i].addEventListener(
     'dblclick',

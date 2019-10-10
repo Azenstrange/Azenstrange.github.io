@@ -162,7 +162,10 @@ justify-content: center;
     transition: all 200ms ease-in;
     transform: scale(1.5);
 }
-
+.mentionlegal{
+  color:grey;
+  font-size: 12px;
+}
 
 .invisible{
   display: none;

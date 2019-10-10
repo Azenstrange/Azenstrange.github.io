@@ -134,6 +134,15 @@ justify-content: center;
   margin-left: 0%;
   margin-right: 0%;
 }
+.img14,.img5,.img11,.img10,.img12,.img15,.img8{
+  display: flex;
+  align-items: center;
+}
+.img14 p,.img11 p,.img5 p,.img10 p,.img12 p,.img15 p,.img8 p{
+  border-radius: 20px;
+  padding: 20px 20px;
+  background-color: #3A3A3A;
+}
 .blockincrease
 {
     display:inline-block;

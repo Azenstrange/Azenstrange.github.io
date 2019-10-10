@@ -14,6 +14,50 @@ body{
 audio{
 
 }
+.imagetype1{
+  width: 120px;
+  height: auto;
+}
+.imagetype2{
+  width: 160px;
+  height: auto;
+}
+.imagetype3{
+  width: 150px;
+  height: auto;
+}
+.imagetype7{
+  width: 100px;
+  height: auto;
+}
+.imagetype6{
+  width: 140px;
+  height: auto;
+}
+.imagetype4{
+  width: 170px;
+  height: auto;
+}
+.imagetype5{
+  width: 200px;
+  height: auto;
+}
+.grandimage1{
+  width: 500px;
+  height: auto;
+}
+.grandimage2{
+  width: 1000px;
+  height: auto;
+}
+.post{
+  width: 50px;
+  height: auto;
+}
+.post2{
+  width: 60px;
+  height: auto;
+}
 .lien{
   width: auto;
   height: auto;

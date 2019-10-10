@@ -73,6 +73,7 @@ audio{
   height: 10%;
   background-color: black;
   transition: 0.3s;
+  text-decoration: none;
 }
 .lien a:hover{
   background-color: white;

@@ -1,22 +1,40 @@
 html{
   width:1280px;
-  height: 1024px;
+  height:1024px;
 }
 body{
   margin:0;
   padding:0;
   font-family: "Niramit", "Arial", sans-serif;
   font-size: 16px;
-  color: black;
-  background-color: white;
+  background-image: url("../images/darkbacklight.png");
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+object{
+  width: 100px;
+  height: 100px;
 }
 .tableau{
+  width: 1200px;
+  height: 800px;
   display: flex;
-  flex-direction:row;
+    flex-direction:row;
 justify-content: center;
   flex-wrap: wrap;
+  background-image: url("../images/dirtywhiteboard.png");
+  background-repeat: no-repeat;
 }
-
+.draggable{
+  width: auto;
+  height: auto;
+}
 .box{
   margin: 20px;
   touch-action: none;
@@ -80,6 +98,33 @@ justify-content: center;
   background: #777;
 }
 .img5{
+  margin-top: 10%;
+  margin-bottom: 0%;
+  margin-left: 0%;
+  margin-right: 0%;
+  width:400px;
+  height: 500px;
+  background: #777;
+}
+.img6{
+  margin-top: 10%;
+  margin-bottom: 0%;
+  margin-left: 0%;
+  margin-right: 0%;
+  width:400px;
+  height: 500px;
+  background: #777;
+}
+.img7{
+  margin-top: 10%;
+  margin-bottom: 0%;
+  margin-left: 0%;
+  margin-right: 0%;
+  width:400px;
+  height: 500px;
+  background: #777;
+}
+.img8{
   margin-top: 10%;
   margin-bottom: 0%;
   margin-left: 0%;

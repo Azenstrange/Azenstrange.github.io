@@ -9,7 +9,24 @@ body{
   background-image: url("../images/darkbacklight.png");
   background-repeat:no-repeat;
   background-attachment: fixed;
-
+  color: white;
+}
+.lien{
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: flex-end;
+}
+.lien a{
+    border: black;
+    border-radius: 20px;
+    margin: 10px 10px;
+  color:white;
+  height: 10%;
+  background-color: black;
+}
+.lien a:hover{
+  border-color: white;
 }
 .container{
   display: flex;
@@ -31,8 +48,8 @@ justify-content: center;
   background-repeat: no-repeat;
 }
 .draggable{
-  width: auto;
-  height: auto;
+  width: 100px;
+  height: 100px;
 }
 .box{
   margin: 20px;

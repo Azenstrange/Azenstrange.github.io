@@ -11,6 +11,9 @@ body{
   background-attachment: fixed;
   color: white;
 }
+audio{
+  
+}
 .lien{
   width: auto;
   height: auto;
@@ -32,10 +35,6 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-}
-object{
-  width: 100px;
-  height: 100px;
 }
 .tableau{
   width: 1200px;

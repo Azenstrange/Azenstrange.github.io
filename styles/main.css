@@ -93,6 +93,7 @@ justify-content: center;
   flex-wrap: wrap;
   background-image: url("../images/dirtywhiteboard.png");
   background-repeat: no-repeat;
+  background-size: cover;
 }
 .draggable{
   width: 100px;;
